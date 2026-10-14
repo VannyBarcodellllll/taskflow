@@ -1,0 +1,9 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A full-stack task manager with a Node.js REST API and SQLite persistence.",
+  "scripts": {"start": "node server.mjs", "test": "node --test test/api.test.mjs"},
+  "engines": {"node": ">=24"}
+}
